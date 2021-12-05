@@ -1,0 +1,11 @@
+.header__lang-link {
+  margin-left: 18px;
+  color: #ffffff;
+  width: 38px;
+  font-family: 'Inter' sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration-line: underline;
+}
