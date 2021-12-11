@@ -1,3 +1,4 @@
 .cover {
-  font-family: 'Inter-Bold', 'Inter-Regular', sans-serif;
+    font-family: 'Inter', sans-serif;
+    max-width: 1184px;
 }

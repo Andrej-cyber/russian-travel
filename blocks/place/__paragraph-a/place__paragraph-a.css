@@ -1,0 +1,17 @@
+.place__paragraph-a {
+    margin-bottom: 26px;
+    margin-top: 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 984px) {
+    .place__paragraph-a {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .place__paragraph-a {
+        margin-bottom: 25px;
+    }
+}

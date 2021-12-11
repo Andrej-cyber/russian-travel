@@ -1,8 +1,14 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  min-height: 52px;
   z-index: 1;
   object-fit: cover;
   margin-left: 0;
   margin-bottom: 0;
+}
+@media screen and (max-width: 394px) {
+  .header__logo {
+    max-width: 142px;
+    min-height: 42px;
+  }
 }
