@@ -1,3 +1,6 @@
 .photo-grid__item-10 {
-    list-style-image: url(../../../images/landscape-image.jpg);
+    background-image: url(../../../images/landscape-image.jpg);
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
 }

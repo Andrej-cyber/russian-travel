@@ -1,3 +1,6 @@
-    .photo-grid__item-2 {
-        list-style-image: url(../../../images/clous-image.jpg);
-    }
+.photo-grid__item-2 {
+    background-image: url(../../../images/clous-image.jpg);
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}

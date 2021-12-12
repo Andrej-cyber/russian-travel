@@ -1,3 +1,6 @@
 .photo-grid__item-7 {
-    list-style-image: url(../../../images/mountain-image.jpg);
+    background-image: url(../../../images/mountain-image.jpg);
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
 }

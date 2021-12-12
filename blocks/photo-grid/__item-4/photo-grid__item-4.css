@@ -1,3 +1,6 @@
 .photo-grid__item-4 {
-    list-style-image: url(../../../images/forest-image.jpg);
+    background-image: url(../../../images/forest-image.jpg);
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
 }
