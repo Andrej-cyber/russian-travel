@@ -4,8 +4,8 @@
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, minmax(min-content, max-content));
-    grid-template-rows: repeat(3, fr);
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
     gap: 16px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -14,16 +14,16 @@
 
 @media screen and (max-width: 1140px) {
     .photo-grid {
-        grid-template-columns: repeat(3, minmax(min-content, max-content));
-        grid-template-rows: repeat(4, fr);
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
         gap: 14px;
     }
 }
 
 @media screen and (max-width: 986px) {
     .photo-grid {
-        grid-template-columns: repeat(2, minmax(min-content, max-content));
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, auto);
         gap: 16px;
         padding: 0 24px 0;
     }
@@ -31,8 +31,8 @@
 
 @media screen and (max-width: 586px) {
     .photo-grid {
-        grid-template-columns: repeat(1, minmax(min-content, max-content));
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(12, auto);
         gap: 12px;
         padding: 0 16px 0;
     }
