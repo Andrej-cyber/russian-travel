@@ -1,4 +1,7 @@
 .photo-grid__item-1 {
     list-style-image: url(../../../images/train-image.jpg);
     object-fit: cover;
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
 }
