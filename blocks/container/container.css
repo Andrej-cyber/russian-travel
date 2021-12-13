@@ -1,33 +1,16 @@
 .container {
-  max-width: 984px;
-  margin: 0 auto;
-}
-@media screen and (max-width: 1140px) {
-  .container {
-    max-width: 928px;
-  }
+    max-width: 984px;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 986px) {
-  .container {
-    max-width: 768px;
-  }
+@media screen and (max-width: 976px) {
+    .container {
+        margin-left: 24px;
+    }
 }
-@media screen and (max-width: 786px) {
-  .container {
-    max-width: 720px;
-    margin: 0 24px 0;
-  }
-}
-@media screen and (max-width: 536px) {
-  .container {
-    max-width: 388px;
-    margin: 0 16px 0;
-  }
-}
-@media screen and (max-width: 394px) {
-  .container {
-    max-width: 288px;
-    margin: 0 16px 0;
-  }
+
+@media screen and (max-width: 396px) {
+    .container {
+        margin: 0 16px 0;
+    }
 }

@@ -10,11 +10,10 @@
     text-align: left;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 986px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        padding-left: 24px;
     }
 }
 

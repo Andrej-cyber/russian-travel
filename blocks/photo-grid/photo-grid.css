@@ -15,6 +15,7 @@
     .photo-grid {
         grid-template-columns: repeat(3, minmax(300px, 1fr));
         grid-template-rows: repeat(4, minmax(225px, 1fr));
+        gap: 14px;
     }
 }
 
