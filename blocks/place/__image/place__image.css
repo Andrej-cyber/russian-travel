@@ -6,21 +6,18 @@
         
         @media screen and (max-width: 1140px) {
             .place__image {
-                width: 100%;
                 max-width: 440px;
             }
         }
         
         @media screen and (max-width: 986px) {
             .place__image {
-                width: 100%;
                 max-width: 340px;
             }
         }
         
         @media screen and (max-width: 586px) {
             .place__image {
-                width: 100%;
                 max-width: 320px;
                 padding: 0 20px 0;
             }

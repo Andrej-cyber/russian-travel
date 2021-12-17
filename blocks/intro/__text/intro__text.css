@@ -1,9 +1,15 @@
 .intro__text {
-  max-width: 690px;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 163%;
-  color: #ffffff;
-  margin: 40px 0 33px;
-  text-align: left;
+    max-width: 690px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 163%;
+    color: #ffffff;
+    margin: 40px 0 33px;
+    text-align: left;
+}
+
+@media screen and (max-width: 986px) {
+    .intro__text {
+        max-width: 720px;
+    }
 }

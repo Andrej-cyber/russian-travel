@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 986px) {
     .container {
         margin-left: 24px;
     }
