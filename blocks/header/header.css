@@ -9,10 +9,14 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 394px) {
+@media screen and (max-width: 986px) {
     .header {
-        max-width: 288px;
-        min-height: 42px;
-        margin: 16px 16px 0;
+        margin: 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .header {
+        margin: 0 16px 0;
     }
 }

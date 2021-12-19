@@ -11,7 +11,11 @@
 @media screen and (max-width: 1140px) {
     .page {
         min-height: 640px;
-        padding-left: 0;
-        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .page {
+        padding-top: 16px;
     }
 }
