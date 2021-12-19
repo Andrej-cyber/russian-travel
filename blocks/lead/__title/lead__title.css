@@ -1,4 +1,4 @@
-.section-title {
+.lead__title {
     max-width: 720px;
     margin: 0 auto 16px;
     align-self: center;
@@ -12,19 +12,19 @@
 }
 
 @media screen and (max-width: 1140px) {
-    .section-title {
+    .lead__title {
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 984px) {
-    .section-title {
+    .lead__title {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 682px) {
-    .section-title {
+    .lead__title {
         max-width: 320px;
         line-height: 44px;
         font-size: 40px;

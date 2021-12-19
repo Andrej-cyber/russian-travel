@@ -1,0 +1,33 @@
+.place__description {
+    max-width: 100%;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1140px) {
+    .place__description {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .place__description {
+        margin-left: 28px;
+        font-size: 16px;
+        line-height: 163%;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .place__description {
+        margin: 32px 16px 0;
+        display: grid;
+        grid-row-gap: 25px;
+        padding: 0;
+    }
+}

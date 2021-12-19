@@ -1,7 +1,4 @@
 .link:hover {
-    border-bottom: 3px solid #ffffff;
-}
-
-.link:focus {
-    border-bottom: 3px solid gold;
+    cursor: pointer;
+    opacity: .3;
 }
