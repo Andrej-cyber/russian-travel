@@ -14,13 +14,6 @@
     }
 }
 
-
-/* @media screen and (max-width: 986px) {
-    .place__item {
-        padding: 0 24px 0;
-    }
-} */
-
 @media screen and (max-width: 586px) {
     .place__item {
         grid-template-columns: repeat(1, minmax(min-content, max-content));
